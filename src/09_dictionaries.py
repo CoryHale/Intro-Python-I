@@ -46,5 +46,8 @@ print(*waypoints, sep='\n')
 # value is -130 and change its name to "not a real place"
 
 
+
 # Write a loop that prints out all the field values for all the waypoints
-# YOUR CODE HERE
+for i in waypoints:
+    for x, y in i.items():
+        print(y)
